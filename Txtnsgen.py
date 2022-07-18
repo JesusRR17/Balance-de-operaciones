@@ -3,13 +3,14 @@ import pandas as pd
 import numpy as np
 import os
 
+num = random.sample(range(1000000000,9999999999),10)
+
 a = []
 for i in range(10):
-    num = round(random.uniform(1000000000,9999999999))
-    a.append(num)
+    num_temp = num[i]
+    a.append(num_temp)
     for i in range(19):
-        blank = ''
-        a.append(blank)
+        a.append(num_temp)
 
 b= []
 for i in range(200):
