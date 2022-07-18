@@ -6,11 +6,13 @@ import os
 num = random.sample(range(1000000000,9999999999),10)
 
 a = []
-for i in range(10):
-    num_temp = num[i]
+j = 0
+for i in range(200): 
+    num_temp = num[j]
     a.append(num_temp)
-    for i in range(19):
-        a.append(num_temp)
+    j += 1
+    if j == len(num):
+        j = 0
 
 b= []
 for i in range(200):
