@@ -6,7 +6,6 @@
 #include <algorithm>
 #include <Windows.h>
 #include <stdlib.h>
-#include <bits/stdc++.h>
 #include <ctime>
 #include <chrono>
 
